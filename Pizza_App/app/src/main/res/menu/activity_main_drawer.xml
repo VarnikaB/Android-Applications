@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/order"
+
+            android:title="@string/menu_order"
+            android:onClick="onClicked"/>
+        <item
+            android:id="@+id/view_menu"
+
+            android:title="@string/menu_view"
+            android:onClick="onClicked"/>
+        <item
+            android:id="@+id/today_offer"
+
+            android:title="@string/menu_offer"
+            android:onClick="onClicked"/>
+        <item
+            android:id="@+id/extra"
+            android:title="@string/menu_extra"
+            android:onClick="onClicked"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact_us"
+                android:title="@string/contact"
+                android:onClick="onClicked"
+                />
+            <item
+                android:id="@+id/rate_us"
+                android:title="@string/rateus"
+                android:onClick="onClicked"/>
+        </menu>
+    </item>
+</menu>
+<!--android:icon="@drawable/ic_menu_camera"-->

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Activity2">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="80pt"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter weight in kg"
+        android:textColor="#AA00BB"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140pt"
+        android:hint="Enter weight in m"
+        android:textColor="#AA00BB"
+        android:textColorHint="#000000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.5in"
+        android:layout_centerHorizontal="true"
+        android:text="calculate"
+        android:id="@+id/button2"
+        android:onClick="calcBMI"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3in"
+        android:textSize="32sp"
+        android:textColor="#AA00BB"
+
+        android:id="@+id/textView1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3.5in"
+        android:textSize="32sp"
+        android:textColor="#AA00BB"
+
+        android:id="@+id/textView2"
+        />
+</RelativeLayout>

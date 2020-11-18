@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#AA0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20pt"
+        android:textSize="92sp"
+
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80pt"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:text="@string/start"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:onClick="onClickStart"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110pt"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:text="@string/stop"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:onClick="onClickStop"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140pt"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:text="@string/reset"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:onClick="onClickReset"/>
+
+    <ImageView
+        android:layout_width="243dp"
+        android:layout_height="259dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/timer"
+        android:contentDescription="TODO" />
+</RelativeLayout>

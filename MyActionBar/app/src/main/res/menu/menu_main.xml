@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myactionbar.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order_action"
+        android:title="@string/orderaction"
+        android:orderInCategory="1"
+        android:icon="@drawable/arrow"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/home"
+        android:title="@string/home_delivery"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:id="@+id/homedelivery"/>
+
+</menu>

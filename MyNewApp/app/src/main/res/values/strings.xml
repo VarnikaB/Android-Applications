@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyNewApp</string>
+    <string name="Click_here">Login</string>
+    <string name="login">Login</string>
+</resources>
